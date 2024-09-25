@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f1f1f1; /* Blanco suave */
-    color: #326396; /* Gris oscuro */
+    color: #333; /* Gris oscuro */
   }
   
   /* Navbar */
   nav {
-    background-color: #326396; /* Gris medio */
+    background-color: #2d3e50; /* Gris medio */
     padding: 20px;
   }
   
@@ -35,15 +35,15 @@ body {
   }
   
   nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: white; /* Nuevo azul */
+    background-color: #559FC8; /* Azul Pagani */
     border-radius: 5px;
   }
   
   nav ul li a:hover {
-    background-color: white; /* Hover más claro en relación con el nuevo azul */
+    background-color: #7bb5d5; /* Hover más claro */
   }
   
   /* Main Content */
@@ -52,34 +52,55 @@ body {
     margin: 50px 0;
   }
   
-  .car-image {
+  .car-video {
     max-width: 90%;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el video */
   }
   
   .center-text {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #333;
+    color: #333; /* Gris oscuro */
     text-align: center;
   }
   
   /* Footer */
   footer {
-    background-color: #2d3e50;
-    color: #999;
+    background-color: #2d3e50; /* Gris medio */
+    color: #999; /* Gris claro */
     text-align: center;
     padding: 20px;
     font-size: 12px;
   }
   
   footer a {
-    color: #999;
+    color: #999; /* Gris claro */
     text-decoration: none;
   }
   
   footer a:hover {
-    color: white;
+    color: white; /* Blanco al pasar el ratón */
+  }
+  
+  /* Custom classes for layout adjustments */
+  .car-video-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1; /* Fondo blanco suave */
+    border-radius: 10px;
+  }
+  
+  .center-text {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  footer p {
+    font-size: 10px; /* Copyright más pequeño */
+    color: #ccc; /* Gris claro */
   }
   
