@@ -1,0 +1,82 @@
+/* About Section */
+#about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about-section h1 {
+    font-size: 2.5em;
+    color: #559FC8; /* Azul Pagani */
+    margin-bottom: 40px;
+}
+
+/* Estilos para el contenido dividido */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Texto de la historia */
+.history-text {
+    width: 45%;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Galería de fotos con disposición dinámica */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    gap: 15px;
+}
+
+.photo-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-photo {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-photo:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar por encima */
+}
+
+/* Distribución de fotos de diferentes tamaños */
+.gallery div:nth-child(1) {
+    width: 100%;
+}
+
+.gallery div:nth-child(2),
+.gallery div:nth-child(3) {
+    width: 48%;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3e50;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
