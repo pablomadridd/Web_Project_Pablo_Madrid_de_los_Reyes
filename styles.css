@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Blanco suave */
+    color: #326396; /* Gris oscuro */
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #326396; /* Gris medio */
+    padding: 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px; /* Tamaño del logo */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white; /* Nuevo azul */
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: white; /* Hover más claro en relación con el nuevo azul */
+  }
+  
+  /* Main Content */
+  #featured-car {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .car-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .center-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2d3e50;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  
