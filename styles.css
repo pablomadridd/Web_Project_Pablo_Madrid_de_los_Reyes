@@ -20,7 +20,7 @@ body {
   }
   
   .logo {
-    width: 150px; /* Tamaño del logo */
+    width: 100px; /* Tamaño del logo */
   }
   
   nav ul {
@@ -54,6 +54,7 @@ body {
   
   .car-video {
     max-width: 90%;
+    max-height: 600px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el video */
@@ -93,14 +94,19 @@ body {
     border-radius: 10px;
   }
   
-  .center-text {
-    margin-top: 15px;
-    font-size: 1.5em;
-    color: #333;
+  .elegant-quote {
+    font-family: 'Georgia', serif; /* Elegante tipo de letra */
+    font-style: italic; /* Cursiva */
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    color: #559FC8; /* Color azul Pagani */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Margen superior e inferior */
+    line-height: 1.6; /* Espaciado entre líneas */
   }
   
   footer p {
     font-size: 10px; /* Copyright más pequeño */
     color: #ccc; /* Gris claro */
   }
+  
   
