@@ -1,0 +1,145 @@
+/* About Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Blanco suave */
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Navbar (copiado de styles.css) */
+  nav {
+    background-color: #2d3e50; /* Gris medio */
+    padding: 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Tamaño del logo */
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #559fc8; /* Azul Pagani */
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #7bb5d5; /* Hover más claro */
+  }
+  
+
+
+
+
+
+/* Contact Section Styles */
+#contact-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1; /* Blanco suave */
+}
+
+/* Map Container Styles */
+.map-container {
+    margin: 40px 0; /* Espacio arriba y abajo */
+    border-radius: 20px; /* Bordes redondeados */
+    overflow: hidden; /* Para ocultar bordes */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
+}
+
+/* Contact Form Container */
+.contact-form-container {
+    background-color: rgba(200, 200, 200, 0.3); /* Fondo descolorido */
+    padding: 40px; /* Espaciado interno */
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centramos horizontalmente */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+/* Form Styles */
+.contact-form-container label {
+    display: block; /* Hace que cada etiqueta ocupe toda la línea */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+.contact-form-container input, 
+.contact-form-container textarea {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio entre campos */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Button Styles */
+.contact-form-container button {
+    background-color: #559FC8; /* Azul Pagani */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.contact-form-container button:hover {
+    background-color: #7bb5d5; /* Hover más claro */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2d3e50; /* Gris medio */
+    color: #999; /* Gris claro */
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+/* Footer */
+  
+footer {
+    background-color: #2d3e50; /* Gris medio */
+    color: #999; /* Gris claro */
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: relative; /* Permite que se extienda sin afectar el flujo */
+    left: 0; /* Alinea el footer a la izquierda */
+  }
+  
+  footer a {
+    color: #999; /* Gris claro */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: white; /* Blanco al pasar el ratón */
+  }
+  
+  footer p {
+    font-size: 10px; /* Copyright más pequeño */
+    color: #ccc; /* Gris claro */
+  }
