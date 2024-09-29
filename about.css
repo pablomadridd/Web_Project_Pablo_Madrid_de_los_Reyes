@@ -1,67 +1,116 @@
 /* About Section */
-#about-section {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Blanco suave */
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Navbar (copiado de styles.css) */
+  nav {
+    background-color: #2d3e50; /* Gris medio */
+    padding: 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Tamaño del logo */
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #559fc8; /* Azul Pagani */
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #7bb5d5; /* Hover más claro */
+  }
+  
+  /* About Section Styles */
+  #about-section {
     padding: 50px;
     text-align: center;
-}
-
-#about-section h1 {
+  }
+  
+  #about-section h1 {
     font-size: 2.5em;
-    color: #559FC8; /* Azul Pagani */
+    color: #559fc8; /* Azul Pagani */
     margin-bottom: 40px;
-}
-
-/* Estilos para el contenido dividido */
-.about-content {
-    margin-top: 30px;
-    text-align: center;
-}
-
-/* Texto de la historia con márgenes creativos */
-.history-text {
-    margin: 0 auto;
-    width: 80%; /* Ajustamos el ancho para dar espacio a los lados */
+  }
+  
+  /* Estilos para el contenedor del texto */
+  .text-container {
+    background-color: rgba(200, 200, 200, 0.3); /* Fondo descolorido */
+    padding: 40px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centramos horizontalmente */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
+    text-align: left; /* Texto alineado a la izquierda */
+  }
+  
+  /* Texto dentro del contenedor */
+  .text-container p {
     font-size: 1.2em;
     color: #333;
     line-height: 1.8;
-    text-align: justify; /* Texto justificado para una presentación más creativa */
-    margin-bottom: 60px; /* Más espacio debajo del texto */
-}
-
-/* Imagen centrada con contenedor de bordes redondeados y sombra */
-.image-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px; /* Espacio considerable con el texto */
-    background-color: #f4f4f4; /* Fondo claro para el contenedor */
-    padding: 20px;
-    border-radius: 20px; /* Bordes redondeados del contenedor */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra suave */
-    width: 60%; /* Ancho del contenedor */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about-photo {
-    width: 100%; /* Imagen ocupa todo el contenedor */
-    height: auto;
-    border-radius: 20px; /* Bordes redondeados para la imagen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave alrededor de la imagen */
-}
-
-/* Footer */
-footer {
-    background-color: #2d3e50;
-    color: #999;
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar texto */
+  }
+  
+  /* Negrita y cursiva en el texto */
+  .text-container strong {
+    font-weight: bold;
+  }
+  
+  .text-container em {
+    font-style: italic;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #2d3e50; /* Gris medio */
+    color: #999; /* Gris claro */
     text-align: center;
     padding: 20px;
     font-size: 12px;
-}
-
-footer a {
-    color: #999;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: relative; /* Permite que se extienda sin afectar el flujo */
+    left: 0; /* Alinea el footer a la izquierda */
+  }
+  
+  footer a {
+    color: #999; /* Gris claro */
     text-decoration: none;
-}
-
-footer a:hover {
-    color: white;
-}
+  }
+  
+  footer a:hover {
+    color: white; /* Blanco al pasar el ratón */
+  }
+  
+  footer p {
+    font-size: 10px; /* Copyright más pequeño */
+    color: #ccc; /* Gris claro */
+  }
