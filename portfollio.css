@@ -1,3 +1,53 @@
+/* About Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Blanco suave */
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Navbar (copiado de styles.css) */
+  nav {
+    background-color: #2d3e50; /* Gris medio */
+    padding: 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Tamaño del logo */
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #559fc8; /* Azul Pagani */
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #7bb5d5; /* Hover más claro */
+  }
+  
+
 /* Portfolio Section Styles */
 #portfolio-section {
     padding: 50px;
@@ -41,3 +91,31 @@
     height: auto; /* Altura automática para mantener la proporción */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra alrededor de las imágenes */
 }
+
+
+/* Footer */
+  
+footer {
+    background-color: #2d3e50; /* Gris medio */
+    color: #999; /* Gris claro */
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: relative; /* Permite que se extienda sin afectar el flujo */
+    left: 0; /* Alinea el footer a la izquierda */
+  }
+  
+  footer a {
+    color: #999; /* Gris claro */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: white; /* Blanco al pasar el ratón */
+  }
+  
+  footer p {
+    font-size: 10px; /* Copyright más pequeño */
+    color: #ccc; /* Gris claro */
+  }
