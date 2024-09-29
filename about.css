@@ -12,37 +12,40 @@
 
 /* Estilos para el contenido dividido */
 .about-content {
-    display: flex;
-    justify-content: center; /* Centramos el contenido */
-    flex-direction: column;  /* Colocamos texto y fotos en vertical */
-    align-items: center;
-    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
-/* Texto de la historia */
+/* Texto de la historia con márgenes creativos */
 .history-text {
-    width: 70%; /* Ajustamos el ancho para mejor presentación */
+    margin: 0 auto;
+    width: 80%; /* Ajustamos el ancho para dar espacio a los lados */
     font-size: 1.2em;
     color: #333;
-    line-height: 1.6;
-    text-align: left;
-    margin-bottom: 50px; /* Espacio adicional debajo del texto */
+    line-height: 1.8;
+    text-align: justify; /* Texto justificado para una presentación más creativa */
+    margin-bottom: 60px; /* Más espacio debajo del texto */
 }
 
-/* Galería de fotos centrada con bordes redondeados */
-.image-gallery {
+/* Imagen centrada con contenedor de bordes redondeados y sombra */
+.image-wrapper {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Espacio entre las imágenes */
-    margin-top: 50px; /* Espacio respecto al texto */
+    margin-top: 50px; /* Espacio considerable con el texto */
+    background-color: #f4f4f4; /* Fondo claro para el contenedor */
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    width: 60%; /* Ancho del contenedor */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-photo {
-    width: 40%; /* Tamaño fijo para que ambas imágenes tengan el mismo tamaño */
-    height: 600px; /* Fijamos una altura uniforme */
-    object-fit: cover; /* Esto ajusta la imagen al contenedor sin deformarla */
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%; /* Imagen ocupa todo el contenedor */
+    height: auto;
+    border-radius: 20px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave alrededor de la imagen */
 }
 
 /* Footer */
