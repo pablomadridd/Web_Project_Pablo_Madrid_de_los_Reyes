@@ -1,15 +1,14 @@
-/* About Section */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1; /* Blanco suave */
-    color: #333; /* Gris oscuro */
+    background-color: #f1f1f1; 
+    color: #333; 
   }
   
-  /* Navbar (copiado de styles.css) */
+
   nav {
-    background-color: #2d3e50; /* Gris medio */
+    background-color: #2d3e50; 
     padding: 20px;
   }
   
@@ -20,7 +19,7 @@ body {
   }
   
   .logo {
-    width: 100px; /* Tamaño del logo */
+    width: 100px; 
     margin-left: 100px;
   }
   
@@ -39,34 +38,33 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #559fc8; /* Azul Pagani */
+    background-color: #559fc8; 
     border-radius: 5px;
   }
   
   nav ul li a:hover {
-    background-color: #7bb5d5; /* Hover más claro */
+    background-color: #7bb5d5; 
   }
   
 
-/* Portfolio Section Styles */
 #portfolio-section {
     padding: 50px;
     text-align: center;
 }
 
 .news-container {
-    background-color: rgba(200, 200, 200, 0.3); /* Fondo descolorido */
-    padding: 40px; /* Espaciado interno */
-    max-width: 800px; /* Ancho máximo */
-    margin: 0 auto; /* Centramos horizontalmente */
-    border-radius: 20px; /* Bordes redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
-    text-align: left; /* Texto alineado a la izquierda */
-    margin-bottom: 40px; /* Espacio inferior para separar del siguiente contenedor */
+    background-color: rgba(200, 200, 200, 0.3); 
+    padding: 40px; 
+    max-width: 800px; 
+    margin: 0 auto;
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+    margin-bottom: 40px; 
 }
 
 .news-container h2 {
-    color: #559FC8; /* Azul Pagani */
+    color: #559FC8; 
     margin-bottom: 20px;
 }
 
@@ -74,67 +72,65 @@ body {
     font-size: 1.2em;
     color: #333;
     line-height: 1.8;
-    margin-bottom: 20px; /* Espacio entre párrafos */
-    text-align: justify; /* Justificar texto */
+    margin-bottom: 20px; 
+    text-align: justify; 
 }
 
-/* Contenedor de Imágenes */
+
 .image-container {
     display: flex;
-    justify-content: center; /* Centra las imágenes */
-    gap: 20px; /* Espacio entre las imágenes */
-    margin-top: 30px; /* Espacio por encima del contenedor de imágenes */
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px; 
 }
 
 .image-container img {
-    border-radius: 15px; /* Bordes redondeados para las imágenes */
-    width: 300px; /* Ancho de las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra alrededor de las imágenes */
+    border-radius: 15px;
+    width: 300px; 
+    height: auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
-/* Styles for the Huayra News Container */
 .huayra-container {
-    margin-top: 40px; /* Espacio superior para separar de la caja anterior */
+    margin-top: 40px; 
 }
 
-/* Reutiliza las mismas reglas de estilo de .news-container */
 .huayra-container {
-    margin-top: 20px; /* Espacio superior para separar de la caja anterior */
-    background-color: rgba(200, 200, 200, 0.3); /* Fondo descolorido */
-    padding: 40px; /* Espaciado interno */
-    max-width: 800px; /* Ancho máximo */
-    margin: 0 auto; /* Centramos horizontalmente */
-    border-radius: 20px; /* Bordes redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
-    text-align: left; /* Texto alineado a la izquierda */
+    margin-top: 20px; 
+    background-color: rgba(200, 200, 200, 0.3); 
+    padding: 40px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
 }
 
-
-/* Footer */
   
 footer {
-    background-color: #2d3e50; /* Gris medio */
-    color: #999; /* Gris claro */
+    background-color: #2d3e50; 
+    color: #999; 
     text-align: center;
     padding: 20px;
     font-size: 12px;
-    width: 100%; /* Asegura que el footer ocupe todo el ancho */
-    position: relative; /* Permite que se extienda sin afectar el flujo */
-    left: 0; /* Alinea el footer a la izquierda */
+    width: 100%; 
+    position: relative; 
+    left: 0; 
   }
   
   footer a {
-    color: #999; /* Gris claro */
+    color: #999; 
     text-decoration: none;
   }
   
   footer a:hover {
-    color: white; /* Blanco al pasar el ratón */
+    color: white; 
   }
   
   footer p {
-    font-size: 10px; /* Copyright más pequeño */
-    color: #ccc; /* Gris claro */
+    font-size: 10px; 
+    color: #ccc; 
   }
+
+  

@@ -1,15 +1,14 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1; /* Blanco suave */
-    color: #333; /* Gris oscuro */
+    background-color: #f1f1f1; 
+    color: #333;
   }
   
-  /* Navbar */
+
   nav {
-    background-color: #2d3e50; /* Gris medio */
+    background-color: #2d3e50; 
     padding: 20px;
   }
   
@@ -20,7 +19,7 @@ body {
   }
   
   .logo {
-    width: 100px; /* Tamaño del logo */
+    width: 100px; 
     margin-left: 100px;
   }
 
@@ -40,15 +39,15 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #559FC8; /* Azul Pagani */
+    background-color: #559FC8;
     border-radius: 5px;
   }
   
   nav ul li a:hover {
-    background-color: #7bb5d5; /* Hover más claro */
+    background-color: #7bb5d5; 
   }
   
-  /* Main Content */
+
   #featured-car {
     text-align: center;
     margin: 50px 0;
@@ -59,56 +58,55 @@ body {
     max-height: 600px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .center-text {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #333; /* Gris oscuro */
+    color: #333; 
     text-align: center;
   }
   
-  /* Footer */
+  
   footer {
-    background-color: #2d3e50; /* Gris medio */
-    color: #999; /* Gris claro */
+    background-color: #2d3e50; 
+    color: #999; 
     text-align: center;
     padding: 20px;
     font-size: 12px;
   }
   
   footer a {
-    color: #999; /* Gris claro */
+    color: #999;
     text-decoration: none;
   }
   
   footer a:hover {
-    color: white; /* Blanco al pasar el ratón */
+    color: white; 
   }
   
-  /* Custom classes for layout adjustments */
+ 
   .car-video-container {
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f1f1f1; /* Fondo blanco suave */
+    background-color: #f1f1f1; 
     border-radius: 10px;
   }
   
   .elegant-quote {
-    font-family: 'Georgia', serif; /* Elegante tipo de letra */
-    font-style: italic; /* Cursiva */
-    font-size: 1.5em; /* Tamaño de fuente más grande */
-    color: #559FC8; /* Color azul Pagani */
-    text-align: center; /* Centrar el texto */
-    margin: 20px 0; /* Margen superior e inferior */
-    line-height: 1.6; /* Espaciado entre líneas */
+    font-family: 'Georgia', serif; 
+    font-style: italic; 
+    font-size: 1.5em; 
+    color: #559FC8; 
+    text-align: center; 
+    margin: 20px 0; 
+    line-height: 1.6; 
   }
   
   footer p {
-    font-size: 10px; /* Copyright más pequeño */
-    color: #ccc; /* Gris claro */
+    font-size: 10px; 
+    color: #ccc; 
   }
-  
   
