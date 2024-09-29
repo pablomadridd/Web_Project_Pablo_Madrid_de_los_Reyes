@@ -62,6 +62,7 @@ body {
     border-radius: 20px; /* Bordes redondeados */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
     text-align: left; /* Texto alineado a la izquierda */
+    margin-bottom: 40px; /* Espacio inferior para separar del siguiente contenedor */
 }
 
 .news-container h2 {
@@ -90,6 +91,25 @@ body {
     width: 300px; /* Ancho de las imágenes */
     height: auto; /* Altura automática para mantener la proporción */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra alrededor de las imágenes */
+}
+
+
+
+/* Styles for the Huayra News Container */
+.huayra-container {
+    margin-top: 40px; /* Espacio superior para separar de la caja anterior */
+}
+
+/* Reutiliza las mismas reglas de estilo de .news-container */
+.huayra-container {
+    margin-top: 20px; /* Espacio superior para separar de la caja anterior */
+    background-color: rgba(200, 200, 200, 0.3); /* Fondo descolorido */
+    padding: 40px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centramos horizontalmente */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor del contenedor */
+    text-align: left; /* Texto alineado a la izquierda */
 }
 
 
