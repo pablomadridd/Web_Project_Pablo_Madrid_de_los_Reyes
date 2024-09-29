@@ -13,54 +13,36 @@
 /* Estilos para el contenido dividido */
 .about-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center; /* Centramos el contenido */
+    flex-direction: column;  /* Colocamos texto y fotos en vertical */
+    align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 /* Texto de la historia */
 .history-text {
-    width: 45%;
+    width: 70%; /* Ajustamos el ancho para mejor presentación */
     font-size: 1.2em;
     color: #333;
     line-height: 1.6;
     text-align: left;
+    margin-bottom: 50px; /* Espacio adicional debajo del texto */
 }
 
-/* Galería de fotos con disposición dinámica */
-.gallery {
+/* Galería de fotos centrada con bordes redondeados */
+.image-gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
-    gap: 15px;
-}
-
-.photo-container {
-    position: relative;
-    overflow: hidden;
+    gap: 40px; /* Espacio entre las imágenes */
+    margin-top: 50px; /* Espacio respecto al texto */
 }
 
 .about-photo {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-.about-photo:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar por encima */
-}
-
-/* Distribución de fotos de diferentes tamaños */
-.gallery div:nth-child(1) {
-    width: 100%;
-}
-
-.gallery div:nth-child(2),
-.gallery div:nth-child(3) {
-    width: 48%;
+    width: 40%; /* Tamaño fijo para que ambas imágenes tengan el mismo tamaño */
+    height: 600px; /* Fijamos una altura uniforme */
+    object-fit: cover; /* Esto ajusta la imagen al contenedor sin deformarla */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Footer */
